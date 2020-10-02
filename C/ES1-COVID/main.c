@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define ALLOC_ERR -2
-#define INPUT_ERR -1
 #define NO_ERR 0
+#define INPUT_ERR 1
+#define ALLOC_ERR 2
 
 int main(int argc, const char **argv, const char **envp)
 {
@@ -16,14 +16,14 @@ int main(int argc, const char **argv, const char **envp)
     printf("Numero di soggetti contagiati da un singolo: ");
     if(scanf("%f", &r) == 0)
     {
-        printf("Errore %d: Non e' stato inserito un numero.\n\n", INPUT_ERR);
+        printf("Error 0x08%x: Non e' stato inserito un numero.\n\n", INPUT_ERR);
         return INPUT_ERR;
     }
 
     printf("Numero di alunni: ");
     if(scanf("%u", &n_alunni) == 0)
     {
-        printf("Errore %d: Non e' stato inserito un numero.\n\n", INPUT_ERR);
+        printf("Errore 0x%08x: Non e' stato inserito un numero.\n\n", INPUT_ERR);
         return INPUT_ERR;
     }
 
@@ -31,7 +31,7 @@ int main(int argc, const char **argv, const char **envp)
 
     if(giorni <= 0)
     {
-        printf("Errore %d: Impossibile eseguire la procedura.\n\n", ALLOC_ERR);
+        printf("Error 0x%08x: Impossibile eseguire la procedura.\n\n", ALLOC_ERR);
         return ALLOC_ERR;
     }
 
