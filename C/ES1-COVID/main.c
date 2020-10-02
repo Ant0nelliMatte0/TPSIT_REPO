@@ -16,7 +16,7 @@ int main(int argc, const char **argv, const char **envp)
     printf("Numero di soggetti contagiati da un singolo: ");
     if(scanf("%f", &r) == 0)
     {
-        printf("Error 0x08%x: Non e' stato inserito un numero.\n\n", INPUT_ERR);
+        printf("Error 0x%08x: Non e' stato inserito un numero.\n\n", INPUT_ERR);
         return INPUT_ERR;
     }
 
