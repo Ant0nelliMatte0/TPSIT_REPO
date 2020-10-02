@@ -1,2 +1,2 @@
 # TPSIT_REPO
-Repository di TPSIT
+T.P.S.I.T. repository
