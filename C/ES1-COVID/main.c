@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> //Per funzioni di input/output
+#include <stdlib.h> //Per calloc
 #include <math.h>
 
-#define NO_ERR 0
+#define NO_ERR 0 //Costante 
 #define INPUT_ERR 1
 #define ALLOC_ERR 2
 
