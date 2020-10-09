@@ -60,7 +60,7 @@ size_t stackdim(stack *s)
         return 0;
 
     tmp = *s;
-    for(dim = 0; tmp != NULL; dim++) //Viene incrementata la dimensione dello stack fino a qundo tmp è nullo
+    for(dim = 0; tmp != NULL; dim++) //Viene incrementata la dimensione dello stack fino a quando tmp è nullo
         tmp = tmp->prev; //tmp punta alla cella precedente
 
     return dim;
