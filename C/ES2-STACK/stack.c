@@ -12,7 +12,7 @@
 
 stack initstack()
 {
-    stack s = NULL;
+    stack s = NULL; //Il puntatore alla cima dello stack è nullo per l'inizializzazione
 
     return s;
 }
