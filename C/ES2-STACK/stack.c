@@ -1,3 +1,13 @@
+/*
+ * stack.c
+ * 
+ * Implementazione delle funzioni dichiarate nel file stack.h
+ *
+ * Autore:   Nicolò Maffi
+ * Data:     16/05/2020
+ * Versione: 1.2
+*/
+
 #include "stack.h"
 
 stack initstack()
