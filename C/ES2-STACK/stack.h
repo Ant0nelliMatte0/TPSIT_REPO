@@ -26,7 +26,7 @@ typedef struct node_t //Tipo node -> rappresenta una cella dello stack
 
 typedef node* stack; //Tipo stack -> coincide con il puntatore alla cima dello stack
 
-//Funzionne che inizializza lo stack
+//Funzione che inizializza lo stack
 //VALORE DI RITORNO: stack inizializzato
 stack initstack();
 
