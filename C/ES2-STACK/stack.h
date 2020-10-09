@@ -1,3 +1,13 @@
+/*
+ * stack.h
+ * 
+ * Implementazione di uno stack in C
+ *
+ * Autore:   Nicolò Maffi
+ * Data:     16/05/2020
+ * Versione: 1.2
+*/
+
 #include <stdio.h> //Per size_t
 #include <stdlib.h> //Per calloc
 
