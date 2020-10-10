@@ -37,12 +37,12 @@ short pop(stack *s, int *value)
     node *tmp = NULL; //Puntatore di supporto
 
     //Controllo della validità dei puntatori passati come parametri
-    //Se il il puntatore top è nullo lo stack e vuoto -> non si può effettuare la push
+    //Se il il puntatore top è nullo lo stack e vuoto -> non si può effettuare la pop
     if(s == NULL || value == NULL || *s == NULL)
         return 0;
 
     tmp = *s;
-    *value = (*s)->value; //Impostazione del valore che restituirà la push
+    *value = (*s)->value; //Impostazione del valore che restituirà la pop
     *s = (*s)->prev; //Il puntatore top ora punta al nodo precedente
     free(tmp); //Deallocazione del nodo in cima allo stack
 
