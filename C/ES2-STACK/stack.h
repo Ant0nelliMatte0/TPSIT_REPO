@@ -37,8 +37,8 @@ stack initstack();
 short push(stack *s, int value);
 
 //Funzione di pop -> rimozione di un dato dallo stack
-//PARAMETRI: s = puntatore allo stack su cui si vuole effettuare la push
-//           value = valore del nodo che ritornerà la push
+//PARAMETRI: s = puntatore allo stack su cui si vuole effettuare la pop
+//           value = valore del nodo che ritornerà la pop
 //VALORE DI RITORNO: 1 se loperazione è riuscita, 0 altrimenti
 short pop(stack *s, int *value);
 
