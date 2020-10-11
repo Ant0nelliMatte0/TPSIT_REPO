@@ -1,7 +1,7 @@
 /*
  * stack.h
  * 
- * Implementazione di uno stack in C
+ * Implementazione di uno stack (L.I.F.O.) in C
  *
  * Autore:   Nicolò Maffi
  * Data:     16/05/2020
