@@ -37,7 +37,7 @@ short pop(stack *s, int *value)
     node *tmp = NULL; //Puntatore di supporto
 
     //Controllo della validità dei puntatori passati come parametri
-    //Se il il puntatore top è nullo lo stack e vuoto -> non si può effettuare la pop
+    //Se il il puntatore top è nullo lo stack è vuoto -> non si può effettuare la pop
     if(s == NULL || value == NULL || *s == NULL)
         return 0;
 
@@ -55,7 +55,7 @@ size_t stackdim(stack *s)
     size_t dim = 0; //Dimensione dello stack
 
     //Controllo della validità dei puntatori passati come parametri
-    //Se il il puntatore top è nullo lo stack e vuoto -> non ha dimensione
+    //Se il il puntatore top è nullo lo stack è vuoto -> non ha dimensione
     if(s == NULL || *s == NULL)
         return 0;
 
